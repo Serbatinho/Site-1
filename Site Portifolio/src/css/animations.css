@@ -1,0 +1,45 @@
+@keyframes logo {
+    0% {
+        transform: translateY(-10px);
+        transition-delay: 0, 5;
+    }
+
+    100% {
+        transform: translateY(0px);
+        transition-delay: 1s;
+    }
+}
+
+@keyframes transition-home {
+
+    0% {
+        content: "Designer & Front-End Developer";
+        animation-delay: 3s;
+    }
+
+    50% {
+        content: "Freelancer";
+        animation-delay: 3s;
+
+    }
+
+    83% {
+        content: "Java Developer";
+        animation-delay: 3s;
+    }
+
+}
+
+@keyframes fadeinup {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+        transition-delay: 0, 5;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        transition-delay: 1;
+    }
+}

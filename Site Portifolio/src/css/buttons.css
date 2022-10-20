@@ -1,0 +1,21 @@
+.btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 180px;
+    height: 60px;
+    padding-top: 4px;
+    transition: all 0.4s ease-in-out;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+
+}
+
+.btn:hover {
+    background-color: #de4d3a;
+    border-color: transparent;
+
+}

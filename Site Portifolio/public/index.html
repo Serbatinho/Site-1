@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../src/css/style.css">
     <link rel="stylesheet" type="text/css" href="../src/css/buttons.css">
     <link rel="stylesheet" type="text/css" href="../src/css/animations.css">
+    <link rel="stylesheet" type="text/css" href="../src/css/navbar.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Serbato | Portfolio | Desenvolvedor Front-End</title>
@@ -34,7 +35,9 @@
             </div>
             <div class="whatido-content">
                 <div class="whatido-trait">
-                    <div id="whatido-icon1"" class="whatido-icon"></div>
+                    <div class=" whatido-icon">
+                        <div class="whatido-icon-img" id="whatido-icon1"></div>
+                    </div>
                     <div class="whatido-text">
                         <h2>CSS Templates</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi culpa amet voluptatibus optio?
@@ -42,7 +45,9 @@
                     </div>
                 </div>
                 <div class="whatido-trait">
-                    <div class="whatido-icon"></div>
+                    <div class=" whatido-icon">
+                        <div class="whatido-icon-img" id="whatido-icon1"></div>
+                    </div>
                     <div class="whatido-text">
                         <h2>Java Plugins</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi culpa amet voluptatibus optio?
@@ -50,7 +55,9 @@
                     </div>
                 </div>
                 <div class="whatido-trait">
-                    <div class="whatido-icon"></div>
+                    <div class=" whatido-icon">
+                        <div class="whatido-icon-img" id="whatido-icon1"></div>
+                    </div>
                     <div class="whatido-text">
                         <h2>COOMING SOON</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi culpa amet voluptatibus optio?
@@ -63,16 +70,17 @@
 
         <!-- Start-Curriculum-->
         <div class="curriculum">
-            <div class="curriculum-content">
+            <div id="curriculum-vitae" class="curriculum-content">
                 <h2>Curriculum Vitae</h2>
             </div>
-            <div class="curriculum-content">
+            <div id="linkedin" class="curriculum-content">
                 <h2>LinkedIn</h2>
             </div>
-            <div class="curriculum-content">
+            <div id="github" class="curriculum-content">
                 <h2>GitHub</h2>
             </div>
         </div>
+
         <!-- End-Curriculum-->
 
         <!-- Start-Projects-->
@@ -81,33 +89,68 @@
         </div>
         <!-- End-Projects-->
 
+        <!-- Start-Contacts-->
         <div class="contact">
-            <div class="contact-content">
+            <div id="speakwithme" class="contact-content">
                 <address>
                     <h2>Fale comigo</h2>
-                    <p><i>Icone</i> 55 11 948805716</p>
-                    <p><i>Icone</i> lserbato@gmail.com</p>
-                    <p><i>Icone</i> R. Bueno de Andrade, 680 - Liberdade, São Paulo - SP, 01526-000</p>
+                    <p><i></i> 55 11 948805716</p>
+                    <p><i></i> lserbato@gmail.com</p>
+                    <p><i></i> R. Bueno de Andrade, 680 - Liberdade, São Paulo - SP</p>
                 </address>
             </div>
-            <div class="contact-content">
+            <div id="contact-email" class="contact-content">
                 <form role="form" method="post" action="#">
                     <input name="name" type="text" class="form-control" id="name" placeholder="Seu Nome">
                     <input name="email" type="email" class="form-control" id="email" placeholder="Seu E-mail">
-                    <input name="message" rows="5" class="form-control" id="message" placeholder="Sua Mensagem">
+                    <input name="message" rows="15" class="form-control" id="message" placeholder="Sua Mensagem">
                     <input name="send" type="submit" class="form-control" id="send" value="Enviar">
                 </form>
             </div>
         </div>
+        <!-- End-Contacts-->
 
+        <!-- Start-Coworkers-->
         <div class="coworkers">
             <div>
                 <h2>Colegas</h2>
             </div>
         </div>
+        <!-- End-Coworkers-->
+
+
+        <div class="copyright">
+            <p>No Copyright © 2022, copie à vontade. Designed by Lucas Serbato</p>
+        </div>
 
     </main>
 
+    <!-- Start-Navbar-->
+    <nav>
+        <ul id="fp-navbar" class="">
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Meu Trabalho
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Projetos
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Contato
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- End-Navbar-->
 
 </body>
 

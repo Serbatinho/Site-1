@@ -1,0 +1,42 @@
+#fp-navbar {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+    list-style-type: none;
+    right: 17px;
+}
+
+#fp-navbar a{
+    border-bottom: 2px solid #de4d3a;
+    color: #de4d3a;
+    display: inline-block;
+    letter-spacing: 3px;
+    padding: 3px 5px;
+    margin: 2% 0 10% 0;
+    font-size: 10px;
+    font-family: goodtimes;
+    animation: logo 2000ms 1;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 5px 0 0;
+    margin-top: 0em;
+    content: transparent;
+}
+
+
+#fp-navbar a:hover{
+    background:#de4d3a;
+    color: white;
+}
+
+#fp-navbar a:visited{
+    text-decoration: none;
+}
+
+#fp-navbar a:active{
+    text-decoration: none;
+}
